@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url(../font/Roboto-Regular.ttf);
+	font-family: "Roboto-Bold";
+	src: url(../font/Roboto-Bold.ttf);
+}
+
+body {
+	font-family: Roboto;
+}
+
+.header {
+	background-color: #635854;
+	padding: 12px 0px;
+	border-bottom: 4px solid #3596f5;
+}
+
+.navbar {
+	max-width: 1280px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-nav {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-menu {
+	margin: 0 163px 0 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+	text-align: center;
+}
+
+.navbar-item {
+	margin: 0 40px;
+}
+
+.navbar-link {
+	color: white;
+	text-decoration: none;
+}
+
+.navbar-contacts {
+	text-align: right;
+}
+
+.navbar-text {
+	display: block;
+	color: #fff;
+	margin-bottom: 4px;
+	font-size: 14px;
+	line-height: 16x;
+}
+
+.navbar-phone {
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #fff;
+}

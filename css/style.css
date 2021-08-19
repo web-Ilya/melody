@@ -107,6 +107,10 @@ body {
 	cursor: pointer;
 }
 
+path.current-floor {
+	opacity: 1;
+}
+
 .counter-grup {
 	display: flex;
 	flex-direction: column;
